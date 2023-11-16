@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+  }
+  /* Mywork.css */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+    margin-top: 5px;
+    margin: 10px;
+    background-color: white;
+  }
+  
+  .grid-item {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .item1,
+  .item3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .item2,
+  .item4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+  .item1,
+  .item2 {
+    height: 48vh;
+  }
+  .item3,
+  .item4 {
+    height: 30vh;
+  }
+  .item5,
+  .item6,
+  .item7,
+  .item8 {
+    height: 32vh;
+    background-color: rgb(249, 249, 247);
+    margin-top: 50px;
+    margin: 30px;
+  }
+  .item1 img {
+    width: 48vw;
+    height: 48vh;
+    margin-top: -20px;
+    margin-left: -30px;
+    margin-right: -40px;
+  }
+  .item2 {
+    background-color: rgb(255, 191, 0);
+    margin-left: -5px;
+  }
+  .item3 {
+    display: flex;
+  }
+  .item4 {
+    display: flex;
+  }
+  .item3_img,
+  .item3_content,
+  .item4_content,
+  .item4_img {
+    margin-top: 30px;
+  }
+  .item3_content {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 100px;
+  }
+  
+  .item4_content {
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 130px;
+  }
+  
+  .item2p p {
+    margin: 10px;
+    text-align: justify;
+  }
+  .item3_img img {
+    width: 5vw;
+  }
+  .item4_img img {
+    width: 5vw;
+  }
+  
+  /* Mywork.css */
+  .main-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .xyx {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+    margin-top: 5px;
+  }
+  .lst {
+    background-color: rgb(255, 191, 0);
+    padding: 30px;
+  }
+  .item {
+    text-align: center;
+    background-color: white;
+  }
+  .item img {
+    width: 5vw;
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container,
+    .xyx {
+      grid-template-columns: 1fr;
+    }
+  
+    .item5,
+    .item6,
+    .item7,
+    .item8 {
+      height: auto;
+      overflow: hidden;
+    }
+  }
+  @media (max-width: 768px) {
+    .item3_content {
+      overflow: hidden;
+    }
+    .item4 {
+      display: block; /* Change to a block layout for smaller screens */
+      overflow: hidden;
+    }
+    .item2heading {
+      overflow: hidden;
+    }
+  
+    .item4_img {
+      text-align: center; /* Center align the image */
+    }
+  }
+  

@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+  }
+  
+  .service-cnt{
+   
+    margin-top: 50px;
+  }
+  .service-row{
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 0;
+  }
+  .service-heading{
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-family: Dosis, sans-serif;
+  
+  }
+  .service-heading2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-align: right;
+    font-family: Dosis, sans-serif;
+  }
+  .service-para{
+    font-size: 15px;
+    
+  }
+  .service-para2{
+    font-size: 15px;
+    text-align: right;
+  }
+  .serviceImg{
+    &:hover{
+      transform:scale(1.09) ;
+  transition: 0.3s;
+  overflow: hidden;
+  }
+  
+  }
+  .service-blur {
+    
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #e2c4f4;
+    filter: blur(110px);
+    z-index: 1;
+    top: -18%;
+    left: 30%;
+  }
+  

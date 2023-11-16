@@ -1,0 +1,70 @@
+body {
+  font-family: Arial, sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.about {
+  text-align: center;
+  margin-top: 10px;
+}
+h2 {
+  color: #ff6200;
+  font-weight: 600;
+  text-align: center;
+  font-family: "AnotherCustomFont", serif; /* Use another custom font or fall back to a generic serif font */
+}
+.orange-button {
+  background-color: #ff6600; /* Orange background color */
+  color: #000000; /* black text color */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth color transition on hover */
+}
+.card {
+  width: 21%;
+  border: 3px solid #ff9a03;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 10px 10px 15px rgb(227, 115, 68, 10.1);
+}
+
+.card img {
+  max-width: 40%;
+  border-radius: 50%;
+}
+
+.card h2 {
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
