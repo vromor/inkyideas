@@ -1,0 +1,174 @@
+
+
+.gallery .container {
+    width: 95%;
+    min-height: 100vh; 
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .gallery .container h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #0f0f22;
+    padding: 25px;
+  }
+  
+  .gallery .container .media-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 15px;
+    margin: 20px auto;
+  }
+  
+  .gallery .container .media-container .media {
+    position: relative;
+    height: auto;
+    width: 100%;
+    border: 5px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 8px;
+  }
+  
+  .gallery .container .media-container .media :is(video, img) {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.3s linear;
+  }
+  
+  .gallery .container .media-container .media:hover :is(video, img) {
+    transform: scale(1.1);
+  }
+  
+  .gallery .container .popup-media {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gallery .container .popup-media :is(video, img) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+    border: 3px solid #fff;
+  }
+  
+  .gallery .container .popup-media span {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    z-index: 100;
+    cursor: pointer;
+    color: #fff;
+    user-select: none;
+  }
+  
+  .gallery {
+    margin: 0 auto;
+    align-items: center;
+  }
+  .gallery .media-container {
+  padding: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .gallery .container .media-container {
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+  
+    .gallery .container .media-container .media {
+      height: auto;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery .container .media-container {
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+  
+    .gallery .container .media-container .media {
+      height: auto;
+    }
+  }
+  
+
+  
+  .ruralmarket {
+    margin: 20px;
+    padding: 20px;
+  
+    border: 1px solid #ccc;
+    border: none;
+  }
+  
+  .ruralmarket h1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0f0f22;
+    padding: 25px;
+  }
+  
+  .ruralmarket h3 {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 3px;
+    margin-top: 7px;
+    text-decoration: underline;
+  }
+  
+  .ruralmarket p {
+    font-size: 16px;
+    line-height: 1.5;
+    word-spacing: 0.5rem;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .ruralmarket h1 {
+      font-size: 32px;
+    }
+    .ruralmarket h3 {
+      font-size: 16px;
+    }
+    .ruralmarket p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ruralmarket h1 {
+      font-size: 28px;
+    }
+    .ruralmarket h3 {
+      font-size: 14px;
+    }
+    .ruralmarket p {
+      font-size: 12px;
+    }
+  }
+  
+  

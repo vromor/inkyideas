@@ -1,4 +1,4 @@
-*{
+/* *{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
@@ -133,4 +133,33 @@
     }
     
   }
- 
+  */
+  .text-resets{
+    text-decoration: none;
+}
+#foots{
+    background-color:	#666666;
+    /* background-color:rgba(49, 49, 49, 0.911); */
+    padding: 0%;
+    width:100%;
+    margin-top: 20px;
+    opacity: 0.8;
+    color: black;
+}
+#spans{
+   padding: 20px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+#footers{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    color: white;
+}
+.foot2s,.footends,.footlinks{
+    color: white;
+}

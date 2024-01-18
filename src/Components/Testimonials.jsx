@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -9,64 +9,54 @@ function Testimonials() {
   const projectCount = useRef(null);
   const contractCount = useRef(null);
 
-  const animationClientsCount = () => {
-    animate(0, 11, {
+  const animateCounter = (from, to, ref) => {
+    animate(from, to, {
       duration: 1,
-      onUpdate: (v) => (clientCount.current.textContent = v.toFixed()),
-    });
-  };
-  const animationProjectsCount = () => {
-    animate(0, 91, {
-      duration: 1,
-      onUpdate: (v) => (projectCount.current.textContent = v.toFixed()),
-    });
-  };
-  const animationContactCount = () => {
-    animate(0, 9731, {
-      duration: 1,
-      onUpdate: (v) => (contractCount.current.textContent = v.toFixed()),
+      onUpdate: (v) => (ref.current.textContent = v.toFixed()),
     });
   };
 
   return (
-    <div className=" text-center ">
-      <div className="moving-background">
-        <Row className="wrapper hh">
-          <Col className="container">
-            <i class="fas fa-utensils"></i>
+    <div className="testimonial-container">
+      <div className="testimonial-moving-background">
+        <Row className="testimonial-wrapper hh">
+         {/* For medium-sized screens, set column size to 12 (full width) */}
+          {/* xs={12} sm={12} md={4}  */}
+          <Col className="testimonial-container-col">
+            <i className="fa-solid fa-hand-holding-hand fa-beat" style={{ color: "#ffffff" }}></i>
             <motion.span
-              whileInView={animationClientsCount}
+              whileInView={() => animateCounter(0, 11, clientCount)}
               ref={clientCount}
-              class="num"
+              className="testimonial-num"
               data-val="400+"
             >
-              000
+              000+
             </motion.span>
-            <span class="text">projects</span>
+            <span className="testimonial-text">Projects</span>
           </Col>
-          <Col className="container">
-            <i class="fas fa-utensils"></i>
+          <Col className="testimonial-container-col">
+            <i className="fa-solid fa-file-signature fa-bounce" style={{ color: "#ffffff" }}></i>
             <motion.span
-              whileInView={animationProjectsCount}
+              whileInView={() => animateCounter(0, 91, projectCount)}
               ref={projectCount}
-              class="num"
+              className="testimonial-num"
               data-val="400+"
             >
-              000
+              000+
             </motion.span>
-            <span class="text">contracts</span>
+            <span className="testimonial-text">Contracts</span>
           </Col>
-          <Col className="container">
-            <i class="fas fa-utensils"></i>
+          <Col className="testimonial-container-col">
+            <i className="fa-solid fa-users-line fa-beat" style={{ color: "#ffffff" }}></i>
             <motion.span
-              whileInView={animationContactCount}
+              whileInView={() => animateCounter(0, 9731, contractCount)}
               ref={contractCount}
-              class="num"
+              className="testimonial-num"
               data-val="400"
             >
-              000
+              000+
             </motion.span>
-            <span class="text">clients</span>
+            <span className="testimonial-text">Clients</span>
           </Col>
         </Row>
       </div>

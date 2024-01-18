@@ -5,8 +5,10 @@ import { links } from "./Mylinks";
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
+
   return (
     <>
+    
       {links.map((link) => (
         <div >
           <div className="px-5 text-left md:cursor-pointer group  ">
@@ -51,7 +53,7 @@ const NavLinks = () => {
                           <li className="text-sm text-gray-600 my-2.5">
                             <a
                               href={`#${slink.id}`}
-                              className="hover:text-primary"
+                              className="hover:text-primary" 
                             >
                               {slink.name}
                             </a>

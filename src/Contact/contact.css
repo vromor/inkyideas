@@ -1,0 +1,42 @@
+.contactBody{
+  height: 100%;
+  color: #6B6B6B;
+}
+.contactHeading{
+  color: #FF9100 ;
+  margin-bottom: 20px;
+  font-size: larger;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.contactBody{
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #F5F5F5;
+}
+.contactImg{
+ margin: auto;
+border-radius: 50px;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 12px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.contactButton{
+  color: #1a089f;
+  opacity: 70%;
+  
+}
+.form-floating{
+  margin-bottom: 20px;
+  border: 3px;
+  border-radius: 20%;
+}

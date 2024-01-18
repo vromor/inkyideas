@@ -40,25 +40,26 @@ h4 {
   margin: auto;
   background-image: linear-gradient(
     to right,
-    #07ff41 0%,
-    #006205 51%,
-    #07ff41 100%
+    #f5c683 0%,
+     #d37d1b 51%,
+     #f5c683 100%
   );
-
+   color: white;
+  
   border: none;
   padding: 5px 35px;
   text-align: center;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
+ 
 
   border-radius: 5px 25px;
   display: block;
 }
 
 .btn-grad:hover {
-  background-position: right center;
+  /* background-position: right center; */
   color: #fff;
   text-decoration: none;
 }
@@ -82,3 +83,11 @@ h4 {
   color: rgb(207, 15, 79);
   margin-left: 26%;
 }
+.wearecreativeagency{
+  text-align: center;
+  text-transform: uppercase;
+  /* text-decoration: underline; */
+  font-weight: bolder;
+  font-size: larger;
+}
+

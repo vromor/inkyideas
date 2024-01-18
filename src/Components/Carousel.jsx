@@ -1,6 +1,10 @@
 import Carousel from "react-bootstrap/Carousel";
 
-import logo from "../asset/a.png";
+import carousel1 from "../asset/carousel 1.4-01.png";
+import carousel2 from "../asset/carousel 2.1-01.png";
+import carousel3 from "../asset/carousel 3.1-01.png";
+import carousel4 from "../asset/carousel 4.1-01.png";
+import carousel5 from "../asset/carousel 5.2-01.png";
 import "./carousel.css";
 // import ParticleBg from "./ParticleBg";
 function CarouselFadeExample() {
@@ -9,14 +13,14 @@ function CarouselFadeExample() {
       {/* <ParticleBg/> */}
       <Carousel fade>
         <Carousel.Item>
-          <img className="d-block w-100" src={logo} alt="First slide" />
+          <img className="d-block w-100" src={carousel1} alt="First slide" />
           <Carousel.Caption>
             {/* <h3>First slide label</h3>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
 
             <div class="buttons">
               <button className="cofee">
-                <s>Let's</s> <b class="eff">Invite Us</b> for Cofee!
+                <span className="inviteus">Invite us</span> for Coffee!
               </button>
             </div>
           </Carousel.Caption>
@@ -24,13 +28,13 @@ function CarouselFadeExample() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://wowslider.com/sliders/demo-93/data1/images/landscape.jpg"
+            src={carousel2}
             alt="Second slide"
           />
           <Carousel.Caption>
-            <div class="buttons">
+          <div class="buttons">
               <button className="cofee">
-                <s>Let's</s> <b class="eff">Invite Us</b> for Cofee!
+                <span className="inviteus">Invite us</span> for Coffee!
               </button>
             </div>
           </Carousel.Caption>
@@ -38,13 +42,13 @@ function CarouselFadeExample() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://wowslider.com/sliders/demo-93/data1/images/sunset.jpg"
+            src={carousel3}
             alt="Third slide"
           />
           <Carousel.Caption>
-            <div class="buttons">
+          <div class="buttons">
               <button className="cofee">
-                <s>Let's</s> <b class="eff">Invite Us</b> for Cofee!
+                <span className="inviteus">Invite us</span> for Coffee!
               </button>
             </div>
           </Carousel.Caption>
@@ -52,13 +56,13 @@ function CarouselFadeExample() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://wowslider.com/sliders/demo-93/data1/images/lake.jpg"
+            src={carousel4}
             alt="First slide"
           />
           <Carousel.Caption>
-            <div class="buttons">
+          <div class="buttons">
               <button className="cofee">
-                <s>Let's</s> <b class="eff">Invite Us</b> for Cofee!
+                <span className="inviteus">Invite us</span> for Coffee!
               </button>
             </div>
           </Carousel.Caption>
@@ -66,7 +70,7 @@ function CarouselFadeExample() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://wowslider.com/sliders/demo-93/data1/images/lake.jpg"
+            src={carousel5}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -74,7 +78,7 @@ function CarouselFadeExample() {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> */}
             <div class="buttons">
               <button className="cofee">
-                <s>Let's</s> <b class="eff">Invite Us</b> for Cofee!
+                <span className="inviteus">Invite us</span> for Coffee!
               </button>
             </div>
           </Carousel.Caption>

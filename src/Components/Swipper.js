@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Link } from 'react-router-dom';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -44,8 +45,13 @@ export default function Swipper() {
           <div className="team-name">
             <center>
               <div className="team-content">
-                <h2>Emma Johnson</h2>
-               
+              {/* Link tag use hobe ekhane juel h2 soriea but style same thakbe so classname dia dis */}
+                <Link to="/gallery/photoshoots">
+                <h2>Photo Shoots</h2>
+                </Link>
+            
+                
+            
               </div>
             </center>
           </div>
@@ -56,7 +62,9 @@ export default function Swipper() {
           <div className="team-name">
             <center>
               <div className="team-content">
-                <h2>Emma Johnson</h2>
+                <Link to="/gallery/smalltownandruralmarketing">
+                <h2>Small town and rural marketing</h2>
+                </Link>
                
               </div>
             </center>
@@ -68,7 +76,10 @@ export default function Swipper() {
           <div className="team-name">
             <center>
               <div className="team-content">
-                <h2>Emma Johnson</h2>
+                
+                <Link to="/gallery/vehicularactivations">
+                <h2>Vehicular Activations</h2>
+                </Link>
                
               </div>
             </center>
@@ -80,7 +91,10 @@ export default function Swipper() {
           <div className="team-name">
             <center>
               <div className="team-content">
-                <h2>Emma Johnson</h2>
+                
+                <Link to="/gallery/outdooradvertising">
+                <h2>Outdoor Advertising</h2>
+                </Link>
                
               </div>
             </center>
@@ -92,7 +106,9 @@ export default function Swipper() {
           <div className="team-name">
             <center>
               <div className="team-content">
-                <h2>Emma Johnson</h2>
+                <Link to="/gallery/retailpromotionalservices">
+                <h2>Retail promotional Services</h2>
+                </Link>
                
               </div>
             </center>
@@ -104,7 +120,10 @@ export default function Swipper() {
           <div className="team-name">
             <center>
               <div className="team-content">
-                <h2>Emma Johnson</h2>
+                
+                <Link to="/gallery/exhibition">
+                <h2>Exhibition</h2>
+                </Link>
                
               </div>
             </center>
@@ -116,7 +135,10 @@ export default function Swipper() {
           <div className="team-name">
             <center>
               <div className="team-content">
-                <h2>Emma Johnson</h2>
+                
+                <Link to="/gallery/printproduction">
+                <h2>Print Production</h2>
+                </Link>
                
               </div>
             </center>
@@ -128,7 +150,11 @@ export default function Swipper() {
           <div className="team-name">
             <center>
               <div className="team-content">
-                <h2>Emma Johnson</h2>
+                
+                <Link to="/gallery/events">
+                <h2>Events</h2>
+                </Link>
+                
                 
                
               </div>
@@ -141,7 +167,9 @@ export default function Swipper() {
           <div className="team-name">
             <center>
               <div className="team-content">
-              <a href='#'> kdkfhs</a>
+              <Link to="/gallery/animation">
+                <h2>Animation</h2>
+                </Link>
                
               </div>
             </center>

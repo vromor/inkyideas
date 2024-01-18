@@ -1,70 +1,46 @@
 import React from "react";
 import logo from "../asset/p.jpg";
+import fullteam from "../asset/team ui img w.png";
 import "../Components/who.css";
 const Who = () => {
   return (
     <>
-      <section>
-        <div className="profile">
-          <img src={logo} alt="Profile Picture 1" />
-        </div>
-        <div className="about">
-          <h2>John Doe</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in
-            magna vel metus aliquet tincidunt.
-          </p>
-        </div>
-      </section>
-      <section>
-        <div className="profile">
-          <img src={logo} alt="Profile Picture 2" />
-        </div>
-        <div className="about">
-          <h2>Jane Smith</h2>
-          <p>
-            Curabitur congue tortor ac ligula lacinia sit amet. Nullam malesuada
-            turpis id libero ullamcorper.
-          </p>
-        </div>
-      </section>
-      {/* Add more sections as needed */}
-      <button id="orange-butto" className="orange-button">
-        {" "}
-        More people
-      </button>
-      <div className="card-container">
-        <div className="card">
-          <img src={logo} alt="Profile Picture" />
-          <h2>R Roy</h2>
-          <p>Software Engineer</p>
-          <p>Location: Kalyani</p>
-        </div>
-        <div className="card">
-          <img src={logo} alt="Profile Picture" />
-          <h2>R Roy</h2>
-          <p>Software Engineer</p>
-          <p>Location: Kalyani</p>
-        </div>
-        <div className="card">
-          <img src={logo} alt="Profile Picture" />
-          <h2>R Roy</h2>
-          <p>Software Engineer</p>
-          <p>Location: Kalyani</p>
-        </div>
-        <div className="card">
-          <img src={logo} alt="Profile Picture" />
-          <h2>R Roy</h2>
-          <p>Software Engineer</p>
-          <p>Location: Kalyani</p>
-        </div>
-        <div className="card">
-          <img src={logo} alt="Profile Picture" />
-          <h2>R Roy</h2>
-          <p>Software Engineer</p>
-          <p>Location: Kalyani</p>
+      <div className="container service-cnt">
+        <div className="row service-row">
+          <div className="col-sm-8">
+            <h2 className="service-heading">
+              Strategic Planner : Anirban Mondal
+            </h2>
+            <hr></hr>
+            <p className="service-para">
+              He oversees the development of corporate plans and budgets by
+              playing a lead role in all the planning and budgeting activities
+              performed by the business. In this position, he establishes and
+              reviews key strategic priorities and translates them into
+              actionable and quantitative plans. Provides much needed support in
+              the formulation of individual department strategies.
+              <br></br>
+              <br></br>
+              Anirban Mondal is a graduate from Jadavpur University and Post
+              Graduate from IIT Roorkee. He comes with over 14 years of
+              professional experience in project management and business
+              development. He has a wide spectrum of industry-based knowledge
+              having served as consultant in companies in varied sectors ranging
+              from mining, real estate, agro-chemicals, light/ heavy
+              manufacturing, energy & power, pharmaceuticals, FMCG etc working
+              in India and Bangladesh.
+            </p>
+          </div>
+
+          <div className="col-sm-4 ">
+            <img
+              className="serviceImg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfXpi1Nrns6Lg_qmU2V4jJ4kexQbqsgKyCxg&usqp=CAU"
+            ></img>
+          </div>
         </div>
       </div>
+      <img src={fullteam} alt="full team"/>
     </>
   );
 };

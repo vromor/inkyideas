@@ -394,9 +394,145 @@ At InkyIdeas, we take a creative approach to activations. Whether it's a pop-up 
         image: require("./media/image/Social & Cultural Events.png"),
         position: "left"
     }
-
-
 ]
 
+export const allphoto = [
+    {
+        heading: "photoshoots",
+        images: [
+            { url: require("./Gallery/media/Photoshoots/5D3_1493-513x768-960x300.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/5D3_1539-567x768-960x300.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/DSC_0911-960x300.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/Industrial-Photography_5D3_8534.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/Industrial-Photography_5D3_8597-960x300.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/Industrial-Photography_5D3_8617.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/Industrial-Photography_5D3_8637.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/Model-phogography-for-Bengal-Surgical-960x300.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/Model-phogography-for-Bengal-Surgical3-512x768-960x300.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/Product-shoot-for-agro-based-company2-960x300.jpg"), type: "image" },
+          
+]
+    },
+    {
+        heading: "animation",
+        images: [
+            { url: require("./Gallery/media/a.jpg"), type: "image" },
+            { url: require("./Gallery/media/b.jpeg"), type: "image" },
+            { url: require("./Gallery/media/c.jpeg"), type: "image" },
+            { url: require("./Gallery/media/d.jpeg"), type: "image" },
+            { url: require("./Gallery/media/d.jpeg"), type: "image" },
+            { url: require("./Gallery/media/e.jpeg"), type: "image" },
+            { url: require("./Gallery/media/f.jpeg"), type: "image" },
+            { url: require("./Gallery/media/g.jpeg"), type: "image" },
+            { url: require("./Gallery/media/h.jpeg"), type: "image" },
+            { url: require("./Gallery/media/i.jpeg"), type: "image" },
+        ]
+    },
+    {
+        heading: "events",
+        images: [
+            { url: require("./Gallery/media/Events/Corporate-Meet.jpg"), type: "image" },
+            { url: require("./Gallery/media/Events/Cultural-Event.jpg"), type: "image" },
+            { url: require("./Gallery/media/Events/Flower-Decoration-for-AGM-Stage-DSC_0644.jpg"), type: "image" },
+            { url: require("./Gallery/media/Events/Grand-Corporate-Meet.jpg"), type: "image" },
+            { url: require("./Gallery/media/Events/Stage-Decoration-for-AGM_SBIOA-DSC_0582.jpg"), type: "image" },
+            { url: require("./Gallery/media/Events/Stage-Decoration-for-a-Event_AGM_SBIOA.jpg"), type: "image" },
+            { url: require("./Gallery/media/Events/Team-Building-Activity.jpg"), type: "image" },
+            { url: require("./Gallery/media/Events/corporate-Event-Planning-Arrangment.jpg"), type: "image" },
+            // { url: require("./Gallery/media/h.jpeg"), type: "image" },
+            // { url: require("./Gallery/media/i.jpeg"), type: "image" },
+        ]
+    },
+    {
+        heading: "printproduction",
+        images: [
+            { url: require("./Gallery/media/PrintProduction/Banner2_IMAG1032-copy.jpg"), type: "image" },
+            { url: require("./Gallery/media/PrintProduction/Corporate_Brocher-or-prospectus.jpg"), type: "image" },
+            { url: require("./Gallery/media/PrintProduction/EcoSolvent-Printing-machine-for-indoor-decoration.jpg"), type: "image" },
+            { url: require("./Gallery/media/PrintProduction/Glowsign-Printing-Machine_IMAG1301-copy.jpg"), type: "image" },
+            { url: require("./Gallery/media/PrintProduction/Large-Format-Flex-Printing-Machine_IMAG0023-copy.jpg"), type: "image" },
+            { url: require("./Gallery/media/PrintProduction/Large-Format-Flex-Printing-Machine_IMG_20150518_204452329-copy.jpg"), type: "image" },
+            { url: require("./Gallery/media/PrintProduction/Large-format-banner-printing-machines.jpg"), type: "image" },
+            { url: require("./Gallery/media/PrintProduction/Offset-Printing-Machine-Paper-media.jpg"), type: "image" },
+            // { url: require("./Gallery/media/h.jpeg"), type: "image" },
+            // { url: require("./Gallery/media/i.jpeg"), type: "image" },
+        ]
+    },
+    {
+        heading: "exhibition",
+        images: [
+            { url: require("./Gallery/media/exhibition/Pavilion-for-Nadia-district-at-MatiTirthaMela2015_1.jpg"), type: "image" },
+            { url: require("./Gallery/media/exhibition/Pavilion-for-cargill-at-Bengal-summit-1-1.jpg"), type: "image" },
+            { url: require("./Gallery/media/exhibition/Pavilion-for-cargill-at-bengal-summit.jpg"), type: "image" },
+            { url: require("./Gallery/media/exhibition/Pavilion-for-nadia-district-at-MatiTirthaMela2015.jpg"), type: "image" },
+            { url: require("./Gallery/media/exhibition/Pavilion-for-nadia-district-at-MatiTirthaMela2015_2-1.jpg"), type: "image" },
+            // { url: require("./Gallery/media/e.jpeg"), type: "image" },
+            // { url: require("./Gallery/media/f.jpeg"), type: "image" },
+            // { url: require("./Gallery/media/g.jpeg"), type: "image" },
+            // { url: require("./Gallery/media/h.jpeg"), type: "image" },
+            // { url: require("./Gallery/media/i.jpeg"), type: "image" },
+        ]
+    },
+    {
+        heading: "retailpromotionalservices",
+        images: [
+            { url: require("./Gallery/media/Photoshoots/5D3_1493-513x768-960x300.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/5D3_1539-567x768-960x300.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/DSC_0911-960x300.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/Industrial-Photography_5D3_8534.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/Industrial-Photography_5D3_8597-960x300.jpg"), type: "image" },
+            { url: require("./Gallery/media/Photoshoots/Industrial-Photography_5D3_8617.jpg"), type: "image" },
+            { url: require("./Gallery/media/f.jpeg"), type: "image" },
+            { url: require("./Gallery/media/g.jpeg"), type: "image" },
+            { url: require("./Gallery/media/h.jpeg"), type: "image" },
+            { url: require("./Gallery/media/i.jpeg"), type: "image" },
+        ]
+    },
+    {
+        heading: "outdooradvertising",
+        images: [
+            { url: require("./Gallery/media/a.jpg"), type: "image" },
+            { url: require("./Gallery/media/b.jpeg"), type: "image" },
+            { url: require("./Gallery/media/c.jpeg"), type: "image" },
+            { url: require("./Gallery/media/d.jpeg"), type: "image" },
+            { url: require("./Gallery/media/d.jpeg"), type: "image" },
+            { url: require("./Gallery/media/e.jpeg"), type: "image" },
+            { url: require("./Gallery/media/f.jpeg"), type: "image" },
+            { url: require("./Gallery/media/g.jpeg"), type: "image" },
+            { url: require("./Gallery/media/h.jpeg"), type: "image" },
+            { url: require("./Gallery/media/i.jpeg"), type: "image" },
+        ]
+    },
+    {
+        heading: "vehicularactivations",
+        images: [
+            { url: require("./Gallery/media/vehicular/Creative-Mobile-Van-_IMAG1168-1.jpg"), type: "image" },
+            { url: require("./Gallery/media/vehicular/Interactive-Mobile-Van-IMAG1268-1.jpg"), type: "image" },
+            { url: require("./Gallery/media/vehicular/Interactive-Mobile-Van_DSC_1368-1.jpg"), type: "image" },
+            { url: require("./Gallery/media/vehicular/Mobile-Van-Rally-for-Airtel-1.jpg"), type: "image" },
+            { url: require("./Gallery/media/vehicular/Mobile-Van-Rally-for-Airtel_DSC_0360-1.jpg"), type: "image" },
+            { url: require("./Gallery/media/vehicular/Mobile-Van_IMAG0192-1.jpg"), type: "image" },
+            { url: require("./Gallery/media/vehicular/Mobile-van_IMAG1270-1.jpg"), type: "image" },
+            { url: require("./Gallery/media/vehicular/Mobile-van_IMG_20150828_144907864_HDR-1.jpg"), type: "image" },
+            { url: require("./Gallery/media/vehicular/Visula-mobile-van-_DSC_0356-1.jpg"), type: "image" },
+            
+        ]
+    },
+    {
+        heading: "smalltownandruralmarketing",
+        images: [
+            { url: require("./Gallery/media/a.jpg"), type: "image" },
+            { url: require("./Gallery/media/b.jpeg"), type: "image" },
+            { url: require("./Gallery/media/c.jpeg"), type: "image" },
+            { url: require("./Gallery/media/d.jpeg"), type: "image" },
+            { url: require("./Gallery/media/d.jpeg"), type: "image" },
+            { url: require("./Gallery/media/e.jpeg"), type: "image" },
+            { url: require("./Gallery/media/f.jpeg"), type: "image" },
+            { url: require("./Gallery/media/g.jpeg"), type: "image" },
+            { url: require("./Gallery/media/h.jpeg"), type: "image" },
+            { url: require("./Gallery/media/i.jpeg"), type: "image" },
+        ]
+    },
 
+]
 

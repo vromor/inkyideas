@@ -16,10 +16,15 @@ import {creativedata, digitaldata, techdata,atlbtldata} from './data'
 
 import NavLinks from "./Components/Navbar/NavLinks";
 import Creative from "./creativecontent/Creative";
+import Contact from "./Contact/Contact";
+import Gallery from "./Gallery/Gallery";
+import React, { useState } from "react";
+
 
 
 
 function App() {
+  const [file, setFile] = useState(null);
   return (
     <>
     
@@ -31,14 +36,17 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About Us />} />
-          
+          <Route path ="/team" element={<Who/>}/>
           <Route path="/digitalmarketing" element={<Digital  />} />
           <Route path="/creativecontent" element={<Creative  />} />
           <Route path="/techsolution" element={<Techsolution  />} />
           <Route path="/atlbtl" element={<Atlbtl  />} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/gallery/:title" element={<Gallery  file={file} setFile={setFile} />} />
           
  
         </Routes>
+        <Footer/>
       </BrowserRouter> 
     </>
   );
